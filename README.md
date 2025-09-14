@@ -1,6 +1,8 @@
 import random
 
+
 def hangman():
+
 
     # Step 1: Predefined word list
     
@@ -50,7 +52,5 @@ def hangman():
         print("\n Congratulations! You guessed the word:", word)
     else:
         print("\n Game Over! The word was:", word)
-
-# Run the game
 
 hangman()
