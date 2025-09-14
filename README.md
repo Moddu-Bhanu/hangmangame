@@ -3,7 +3,9 @@ import random
 def hangman():
     # Step 1: Predefined word list
     words = ["python", "computer", "program", "hangman", "keyboard"]
+    
     word = random.choice(words)  # Randomly select a word
+    
     guessed_word = ["_"] * len(word)  # Display word with underscores
     guessed_letters = []  # Track letters already guessed
     attempts = 6  # Allowed wrong guesses
