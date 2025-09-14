@@ -52,4 +52,5 @@ def hangman():
         print("\n Game Over! The word was:", word)
 
 # Run the game
+
 hangman()
